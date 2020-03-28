@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 from flask_restful import Api, Resource
 from flask_cors import CORS
+import os
 import random
 import math
 import numpy as np
@@ -34,4 +35,5 @@ class Dna(Resource):
 api.add_resource(Dna, '/dna')
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.1", port=5000,debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
