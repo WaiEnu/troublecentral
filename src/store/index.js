@@ -81,7 +81,7 @@ export default new Vuex.Store({
       state.commit('changeIndex', item);
     },
     async getAlignX(context) {
-      const path = 'http://localhost:5000/dna';
+      const path = 'http://0.0.0.1:5000/dna';
       const payload = {
         alX: [],
       };
