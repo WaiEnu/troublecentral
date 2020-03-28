@@ -84,7 +84,7 @@ export default new Vuex.Store({
       const payload = {
         alX: [],
       };
-      await axios.get('http://127.0.0.1:5000/dna')
+      await axios.get('/dna')
       .then((res) => {
         payload.alX = res.data.seq;
       });
