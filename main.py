@@ -34,6 +34,11 @@ class Dna(Resource):
 
 api.add_resource(Dna, '/dna')
 
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def index(path):
+    return render_template('index.html')
+
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(debug=True, port=port)
