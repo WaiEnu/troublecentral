@@ -81,10 +81,11 @@ export default new Vuex.Store({
       state.commit('changeIndex', item);
     },
     async getAlignX(context) {
+      const path = 'http://localhost:5000/dna';
       const payload = {
         alX: [],
       };
-      await axios.get('/dna')
+      await axios.get(path)
       .then((res) => {
         payload.alX = res.data.seq;
       });
