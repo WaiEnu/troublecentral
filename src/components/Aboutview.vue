@@ -71,7 +71,7 @@ export default {
       slides: [
         {'id':1,'title':'DNA','text':'細胞の核という部分の中にはDNAがあります','src':require('@/assets/about/tape.png')}
         ,{'id':2,'title':'設計図','text':'DNAは遺伝子、つまり生命の設計図です','src':require('@/assets/about/copy.png')}
-        ,{'id':3,'title':'遺伝子','text':'三つの組み合わせで一つの文字をを表します','src':require('@/assets/about/transfar.png')}
+        ,{'id':3,'title':'遺伝子','text':'三つの組み合わせで一つの文字を表します','src':require('@/assets/about/transfar.png')}
       ],
     }
   },
