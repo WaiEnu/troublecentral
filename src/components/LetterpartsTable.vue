@@ -23,7 +23,7 @@
             <v-col cols="6" class="text-center pa-2">
               せいこう！
               <v-img
-                :src="result[1].src"
+                :src="result[0].src"
                 contain
                 alt=""
                 width="auto"
@@ -34,7 +34,7 @@
             <v-col cols="6" class="text-center pa-2">
               しっぱい…
               <v-img
-                :src="result[0].src"
+                :src="result[1].src"
                 contain
                 alt=""
                 width="auto"
