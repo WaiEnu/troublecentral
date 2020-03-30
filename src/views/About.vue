@@ -4,7 +4,7 @@
     fluid
   >
     <v-layout wrap align-center justify-space-around>
-      <v-flex lg8 md8 xs10>
+      <v-flex lg8 md10 xs12>
         <Aboutview/>
       </v-flex>
     </v-layout>

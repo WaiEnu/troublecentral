@@ -16,12 +16,12 @@
           fluid>
           <v-row no-gutters="">
             <v-col cols="12" class="pa-2">
-              <p>遺伝暗号は始まりの合図AUGから始まり、終わりの合図(UAA,UAC,UCA)でおわる。</p>
+              <div class="title">遺伝暗号は始まりの合図AUGから始まり、終わりの合図(UAA,UAC,UCA)でおわる。</div>
             </v-col>
           </v-row>
           <v-row no-gutters="">
             <v-col cols="6" class="text-center pa-2">
-              せいこう！
+              <div class="title">せいこう！</div>
               <v-img
                 :src="result[0].src"
                 contain
@@ -32,7 +32,7 @@
               </v-img>
             </v-col>
             <v-col cols="6" class="text-center pa-2">
-              しっぱい…
+              <div class="title">しっぱい…</div>
               <v-img
                 :src="result[1].src"
                 contain

@@ -17,23 +17,23 @@
           color="transparent">
           <v-container
             class="fill-height">
-            <v-row>
+            <v-row no-gutters="">
               <v-col cols="12">
                 <div class="display-3 slideH">
                   {{ slide.title }}
                 </div>
               </v-col>
             </v-row>
-            <v-row>
-              <v-col cols="4">
+            <v-row no-gutters="">
+              <v-col cols="4" class="text-center pa-2">
               <v-img
                 :src="slide.src"
                 contain
                 alt=""
-                class="bgImg">
+                class="Img">
               </v-img>
               </v-col>
-              <v-col cols="8">
+              <v-col cols="8" class="pa-2">
                 <div class="display-1">
                   {{ slide.text }}
                 </div>

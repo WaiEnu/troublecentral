@@ -128,6 +128,9 @@ a {
 
 .bgImg,.Img {
   width: 100%;
+}
+.bgImg{
+  width: 100%;
   height: 100%;
 }
 .bgImg>.v-image__image{

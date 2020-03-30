@@ -78,16 +78,16 @@
         </v-col>
       </v-row>
       <v-row no-gutters="">
-        <v-col cols="4" class="text-center pa-2">
-          <v-btn class="lbtn" depressed text color="gray" @click="showDialog()">ロボット</v-btn>
+        <v-col cols="4" class="text-center px-0 py-2">
+          <v-btn class="lbtn body-1 font-weight-medium pa-2" depressed text color="gray" @click="showDialog()">Robot</v-btn>
           <app-dialog :success="isRobot" v-on:call-next="next" ref="dialog"></app-dialog>
         </v-col>
-        <v-col cols="4" class="text-center pa-2">
-          <v-btn class="lbtn" depressed text color="gray" @click="showTable()">ヒント</v-btn>
+        <v-col cols="4" class="text-center px-0 py-2">
+          <v-btn class="lbtn body-1 font-weight-medium py-2 px-4" depressed text color="gray" @click="showTable()">Hint</v-btn>
           <app-table ref="table"></app-table>
         </v-col>
-        <v-col cols="4" class="text-center pa-2">
-          <v-btn class="lbtn" depressed text color="gray" @click="reset()">リセット</v-btn>
+        <v-col cols="4" class="text-center px-0 py-2">
+          <v-btn class="lbtn body-1 font-weight-medium pa-2" depressed text color="gray" @click="reset()">Reset</v-btn>
         </v-col>
       </v-row>
     </v-container>
