@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" width="60vw" height="60vmin" max-width="500" max-height="500">
+  <v-dialog v-model="dialog" width="80vw" height="80vmin" max-width="500" max-height="500">
     <v-card>
       <v-img
         :src="item"
